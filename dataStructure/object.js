@@ -1,3 +1,5 @@
+// Object adalah tipe data yang dapat menyimpan nilai dari beragam tipe data dan membentuk data yang lebih kompleks
+
 const manusia = {
     nama: "Budi",
     umur: 22,
