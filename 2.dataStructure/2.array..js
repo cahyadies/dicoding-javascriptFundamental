@@ -18,3 +18,27 @@ console.log(myArray[3]);
 console.log(myArray[4]);
 console.log(myArray[5]);
 console.log("Panjang nilai myArray adalah " + myArray.length + ".");
+
+// Push akan menambahkan data pada akhir array
+myArray.push("JavaScript");
+console.log(myArray);
+
+// Pop akan mengeluarkan data pada akhir array
+myArray.pop();
+console.log(myArray);
+
+// Shift akan mengeluarkan elemen pertama pada array
+myArray.shift();
+console.log(myArray);
+
+// Unshift akan menambahkan elemen pada awal array
+myArray.unshift("Bubur");
+console.log(myArray);
+
+// Delete akan menghapus data pada array
+delete myArray[1];
+console.log(myArray);
+
+// Splice untuk menghapus elemen pada array 
+myArray.splice(1, 1);
+console.log(myArray);
