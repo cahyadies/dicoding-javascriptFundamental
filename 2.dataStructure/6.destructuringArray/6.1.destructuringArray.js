@@ -4,6 +4,7 @@ const hewan = ["ayam", "sapi", "kambing", "ikan"];
 // Selanjutnya kita buat variable lokal
 const [firstAnimal, secondAnimal, thirdAnimal, fourthAnimal] = hewan
 
+// Kita panggil variable local ada console
 console.log(firstAnimal);
 console.log(secondAnimal);
 console.log(thirdAnimal);
